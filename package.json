@@ -1,0 +1,25 @@
+{
+  "name": "workshop-typescript",
+  "version": "1.0.0",
+  "description": "first project with node setup for workshop Typescript for testers",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrvanraaphorst/typescript-for-testers.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "R van Raaphorst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrvanraaphorst/typescript-for-testers/issues"
+  },
+  "homepage": "https://github.com/rrvanraaphorst/typescript-for-testers#readme",
+  "dependencies": {
+    "tsx": "^4.19.4"
+  }
+}
