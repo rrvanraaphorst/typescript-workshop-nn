@@ -23,7 +23,7 @@ export class Account {
         }
         
         if(this._type=="savings" && minNumber > this._balance){
-            throw new Error("You cannot have a amount loewer than a zero balance");
+            throw new Error("You cannot have a amount lower than a zero balance");
         }
 
         this._balance -= minNumber;
